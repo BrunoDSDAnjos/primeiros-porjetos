@@ -1,0 +1,30 @@
+div#caixaprincipal{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+div#elementos{
+    margin: 100px;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    margin: 20px;
+}
+
+
+input{
+    text-align: center;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 9px;
+}body{
+    background-color: bisque;
+}
