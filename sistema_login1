@@ -1,0 +1,15 @@
+login1 = ['procopio', '12345']
+login2 = ['paiva', 54321]
+login_usuario = input("Digite seu login: ")
+senha_usuario = input("Digite sua senha: ")
+
+
+if (login_usuario == login1[0]) and (senha_usuario == login1[1]):{
+    print('Seja bem vindo!')
+}
+elif  (login_usuario == login2[0]) and (senha_usuario == login2[1]):{
+    print('Seja bem vindo!')
+}
+else : {
+    print('Usuário e senha não conferem')
+}
